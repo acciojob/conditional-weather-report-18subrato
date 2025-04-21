@@ -9,8 +9,8 @@ const App = () => {
   return (
     <div>
 
-      <li style={{ color: whether.temperature > 20 ? 'red' : 'blue' }}>{whether.temperature}</li>
-      <li>{whether.conditions}</li>
+     
+      <p style={{ color: whether.temperature > 20 ? 'red' : 'blue' }}> <span >{whether.temperature}</span>{whether.conditions}</p>
 
     </div>)
 }
