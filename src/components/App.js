@@ -7,9 +7,9 @@ const App = () => {
   const [whether, setWhether] = useState({ temperature: 25, conditions: "Sunny" })
 
   return (
-    <div style={{color:whether.temperature > 20 ? 'red':'blue'}}>
-      <p>temperature : {whether.temperature}</p>
-      <span>condition : {whether.conditions}</span> 
+    <div>
+      <p><span style={{color:whether.temperature > 20 ? 'red':'blue'}}>Temperature</span>: {whether.temperature}</p>
+      <p>Condition : {whether.conditions}</p> 
     </div>
     )
 }
