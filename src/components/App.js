@@ -9,7 +9,7 @@ const App = () => {
   return (
     <div>
       <p><span style={{color:whether.temperature > 20 ? 'red':'blue'}}>Temperature</span>: {whether.temperature}</p>
-      <p>Conditions : {whether.conditions}</p> 
+      <p>Conditions: {whether.conditions}</p> 
     </div>
     )
 }
